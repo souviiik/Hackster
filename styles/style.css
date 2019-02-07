@@ -1,0 +1,25 @@
+.button.is-primary {
+    background-color: rgba(235, 102, 2, 1.0);
+    border-color: transparent;
+    color: #fff;
+    border-radius: 0;
+}
+.button.is-primary.is-hovered, .button.is-primary:hover {
+    background-color: rgba(222, 95, 0, 1.0);
+    border-color: transparent;
+    color: #fff;
+}
+
+.input.is-primary {
+    border-color: #e6e6e6;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.input.is-primary:active, .input.is-primary:focus {
+    box-shadow: 0 0 0 0.125em rgba(255,198,155,.25);
+}
+
+.navbar-item img {
+    max-height: 67px;
+}
